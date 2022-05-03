@@ -1,0 +1,16 @@
+Working with APIs :
+    API is a link to a server. for example :
+    https://reqres.in/api/users?page=2
+
+
+Hypertext Transfer Protocol (HTTP) is an application-layer protocol for transmitting hypermedia documents, such as HTML. It was designed for communication between web browsers and web servers, but it can also be used for other purposes.
+
+
+API tools : 
+    1. fetch() : native java script.
+
+        fetch('http://example.com/movies.json')
+        .then(response => response.json())
+        .then(data => console.log(data));
+
+    2. axios : react library. 
