@@ -6,4 +6,4 @@ import App from './App';
 const root = ReactDOM.createRoot(document.getElementById("root"))
 root.render(<App />)
 
-//old version :  ReacDOM.render(<App/>,document.getElementById("root"))
+//old version :  ReacDOM.render(<App/>,document.getElementById("root")) 
