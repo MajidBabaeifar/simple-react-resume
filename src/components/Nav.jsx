@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink } from 'react-router-dom';
+import { NavLink } from "react-router-dom";
 
 const Nav = () => {
   return (
@@ -31,23 +31,28 @@ const Nav = () => {
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
         <ul className="navbar-nav">
           <li className="nav-item">
-            <NavLink to="/" className="nav-link js-scroll-trigger" >
+            <NavLink to="/" className="nav-link js-scroll-trigger">
               About
             </NavLink>
           </li>
           <li className="nav-item">
-            <NavLink to="/experience" className="nav-link js-scroll-trigger" >
+            <NavLink to="/experience" className="nav-link js-scroll-trigger">
               Experience
             </NavLink>
           </li>
           <li className="nav-item">
-            <NavLink to="/education" className="nav-link js-scroll-trigger" >
+            <NavLink to="/education" className="nav-link js-scroll-trigger">
               Education
             </NavLink>
           </li>
           <li className="nav-item">
-            <NavLink to="/customers" className="nav-link js-scroll-trigger" >
+            <NavLink to="/customers" className="nav-link js-scroll-trigger">
               Customers
+            </NavLink>
+          </li>
+          <li className="nav-item">
+            <NavLink to="/fakedata" className="nav-link js-scroll-trigger">
+              Fake data creator
             </NavLink>
           </li>
           {/* <li className="nav-item">
