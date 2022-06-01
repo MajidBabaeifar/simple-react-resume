@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+import React, { Fragment, useState } from "react";
 import Nav from "./components/Nav";
 import About from "./components/About";
 import Experience from "./components/Experience";
@@ -8,6 +8,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Fakedata from "./components/Fakedata";
 
 const App = () => {
+  const [selectedList, setSelectedList] = useState([])
+
   return (
     <Fragment>
       <BrowserRouter>
